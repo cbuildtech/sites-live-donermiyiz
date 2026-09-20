@@ -651,6 +651,24 @@ body::before{
 
 footer{background:#090604}
 
+footer .site-credit{
+  font-family:var(--font-body);
+  font-size:.82rem;
+  font-weight:500;
+  letter-spacing:0;
+  text-transform:none;
+  color:var(--kul);
+}
+footer .site-credit a{
+  color:#c6b1ff;
+  font-weight:800;
+  transition:color .2s ease,opacity .2s ease;
+}
+footer .site-credit a:hover{color:#fff}
+@media(max-width:620px){
+  footer .kap{flex-direction:column;align-items:flex-start;gap:.7rem}
+}
+
 .reveal-premium{
   opacity:0;transform:translateY(24px);
   transition:opacity .7s ease,transform .7s ease
@@ -2263,7 +2281,7 @@ img[alt="Tavuk Kelebek"]{
 <footer data-lf-id="lf627">
 <div class="kap" data-lf-id="lf628">
 <p class="etiket" data-lf-id="lf154">© 2026 Dönermiyiz?</p>
-<p class="etiket" data-lf-id="lf155">Odun ateşinde, gece boyunca</p>
+<p class="site-credit" data-lf-id="lf155">Bu site <a href="https://cbuildtech.com/" target="_blank" rel="noopener">CBuildTech</a> tarafından oluşturulmuştur.</p>
 </div>
 </footer>
 <div class="mobil-cubuk gorunur" id="mobil-cubuk" data-lf-id="lf629">
